@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_walk"
+        android:icon="@drawable/ic_directions_walk_black_24dp"
+        android:title="Steps"/>
+    <item
+        android:id="@+id/nav_medical"
+        android:icon="@drawable/ic_icons8_medical_id_30"
+        android:title="Medical ID"/>
+</menu>
