@@ -1,4 +1,4 @@
-package com.example.managinghealthapplicationv1.ui.login;
+package com.example.managinghealthapplicationv2.ui.login;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,8 +10,8 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import com.example.managinghealthapplicationv1.R;
-import com.example.managinghealthapplicationv1.WalkingActivity;
+import com.example.managinghealthapplicationv2.R;
+import com.example.managinghealthapplicationv2.WalkingActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;

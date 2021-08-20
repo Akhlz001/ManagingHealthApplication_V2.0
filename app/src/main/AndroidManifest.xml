@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.managinghealthapplicationv1">
+    package="com.example.managinghealthapplicationv2">
 
     <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -15,20 +15,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="LockedOrientationActivity">
-        <activity android:name=".LegacyMedicalID"></activity>
+        <activity android:name="com.example.managinghealthapplicationv2.LegacyMedicalID"></activity>
         <activity
-            android:name=".AddMedicalIDActivity"
+            android:name="com.example.managinghealthapplicationv2.AddMedicalIDActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".WalkingActivity"
+            android:name="com.example.managinghealthapplicationv2.WalkingActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SettingsActivity"
+            android:name="com.example.managinghealthapplicationv2.SettingsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AboutActivity"
+            android:name="com.example.managinghealthapplicationv2.AboutActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".SplashScreenActivity">
+        <activity android:name="com.example.managinghealthapplicationv2.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,25 +36,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.login.RegisterActivity"
+            android:name="com.example.managinghealthapplicationv2.ui.login.RegisterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.login.LoginActivity"
+            android:name="com.example.managinghealthapplicationv2.ui.login.LoginActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.managinghealthapplicationv2.MainActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
         <activity
-            android:name=".CalorieCounter"
+            android:name="com.example.managinghealthapplicationv2.CalorieCounter"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".DisplayLogActivity"
+            android:name="com.example.managinghealthapplicationv2.DisplayLogActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AddNewEntryActivity"
+            android:name="com.example.managinghealthapplicationv2.AddNewEntryActivity"
             android:screenOrientation="portrait" />
     </application>
 

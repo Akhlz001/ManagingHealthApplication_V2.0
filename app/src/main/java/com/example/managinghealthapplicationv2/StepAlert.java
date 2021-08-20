@@ -1,4 +1,4 @@
-package com.example.managinghealthapplicationv1;
+package com.example.managinghealthapplicationv2;
 
 public interface StepAlert {
 

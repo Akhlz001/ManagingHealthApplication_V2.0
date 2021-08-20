@@ -1,16 +1,14 @@
-package com.example.managinghealthapplicationv1;
+package com.example.managinghealthapplicationv2;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.CheckBox;
-import android.widget.Toast;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
 
-import com.example.managinghealthapplicationv1.ui.login.LoginActivity;
+import com.example.managinghealthapplicationv2.ui.login.LoginActivity;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class CreateSettingPreferences extends PreferenceFragmentCompat implements PreferenceManager.OnPreferenceTreeClickListener {

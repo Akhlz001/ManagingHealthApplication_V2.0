@@ -1,4 +1,4 @@
-package com.example.managinghealthapplicationv1;
+package com.example.managinghealthapplicationv2;
 
 //OPEN SOURCE CODE TAKEN FROM GITHUB TO ALLOW STEP DETECTION, USED IN 'Main Activity'
 

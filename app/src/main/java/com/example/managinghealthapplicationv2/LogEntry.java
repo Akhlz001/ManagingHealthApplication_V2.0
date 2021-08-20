@@ -10,7 +10,7 @@
  * First activity upon application load - displays the summaries of
  * the calories log.
  */
-package com.example.managinghealthapplicationv1;
+package com.example.managinghealthapplicationv2;
 
 import java.io.Serializable;
 import java.util.Date;

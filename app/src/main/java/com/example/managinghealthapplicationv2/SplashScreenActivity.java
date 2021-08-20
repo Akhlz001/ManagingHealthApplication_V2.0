@@ -1,4 +1,4 @@
-package com.example.managinghealthapplicationv1;
+package com.example.managinghealthapplicationv2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,10 +7,8 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
-import android.widget.Toast;
 
-import com.example.managinghealthapplicationv1.ui.login.LoginActivity;
-import com.example.managinghealthapplicationv1.ui.login.RegisterActivity;
+import com.example.managinghealthapplicationv2.ui.login.RegisterActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 

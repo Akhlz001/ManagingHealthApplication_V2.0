@@ -1,4 +1,4 @@
-package com.example.managinghealthapplicationv1.ui.login;
+package com.example.managinghealthapplicationv2.ui.login;
 
 import androidx.annotation.NonNull;
 
@@ -12,8 +12,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.example.managinghealthapplicationv1.R;
-import com.example.managinghealthapplicationv1.WalkingActivity;
+import com.example.managinghealthapplicationv2.R;
+import com.example.managinghealthapplicationv2.WalkingActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;

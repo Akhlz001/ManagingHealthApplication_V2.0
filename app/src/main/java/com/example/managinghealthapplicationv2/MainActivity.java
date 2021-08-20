@@ -1,4 +1,4 @@
-package com.example.managinghealthapplicationv1;
+package com.example.managinghealthapplicationv2;
 
 // LEGACY STEP COUNTER //
 
@@ -22,9 +22,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
-
-import com.example.managinghealthapplicationv1.ui.login.LoginActivity;
-import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener, StepAlert {
 
